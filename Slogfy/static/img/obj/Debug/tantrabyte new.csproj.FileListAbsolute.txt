@@ -1,0 +1,35 @@
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\tantrabyte new.dll.config
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\tantrabyte new.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\tantrabyte new.pdb
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\csc.exe
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\csc.exe.config
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\csc.rsp
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\csi.exe
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\csi.rsp
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\System.AppContext.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\vbc.exe
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\vbc.exe.config
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\vbc.rsp
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\obj\Debug\tantrabyte new.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\obj\Debug\tantrabyte new.csproj.CopyComplete
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\obj\Debug\tantrabyte new.dll
+C:\Users\ASUS\source\repos\tantrabyte new\tantrabyte new\obj\Debug\tantrabyte new.pdb
