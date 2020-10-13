@@ -1,0 +1,527 @@
+{% load static %}
+<!doctype html>
+<html lang="zxx">
+<head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+        <!-- Animate Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/animate.min.css' %}">
+        <!-- FlatIcon CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
+        <!-- Odometer Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/odometer.min.css' %}">
+        <!-- MeanMenu CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
+        <!-- Magnific Popup Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.min.css' %}">
+        <!-- Nice Select Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/nice-select.min.css' %}">
+        <!-- Owl Carousel Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+        <!-- Font Awesome Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/fontawesome.min.css' %}">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+        <!--Animation-->
+        <link rel="stylesheet" href="{% static 'about.css' %}">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <title>SLOGFY</title>
+
+        <link rel="icon" type="image/png" href="{% static 'assets/img/123.png' %}">
+    </head>
+
+    <body>
+
+            <!-- Preloader -->
+                <div class="preloader">
+                    <div class="loader">
+                        <div class="shadow"></div>
+                        <div class="box"></div>
+                    </div>
+                </div>
+            <!-- End Preloader -->
+
+                    <!-- Start Navbar Area -->
+                    <div class="navbar-area">
+                        <div class="plamb-responsive-nav">
+                            <div class="container">
+                                <div class="plamb-responsive-menu">
+                                    <div class="logo">
+                                        <a href="">
+                                            <div class="white-logo"><h3 style="color:white">SLOGFY</h3></div>
+                                        <div class="black-logo"><h3>SLOGFY</h3></div>
+                                            
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="plamb-nav">
+                            <div class="container">
+                                <nav class="navbar navbar-expand-md navbar-light">
+                                    <a class="navbar-brand" href="">
+                                        <div class="black-logo"><h1> SLOGFY </h1></div>
+                                        <div class="white-logo"><h1 style="color:white"> SLOGFY </h1></div>
+                                    </a>
+        
+                                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                                        <ul class="navbar-nav">
+                                        
+                                            <li class="nav-item">
+                                                <a href="#services" class="nav-link">
+                                                    Our Services
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="nav-item"><a href="analytics.html" class="nav-link">Robitics<i class="fas fa-chevron-down"></i></a>
+        
+                                                        <ul class="dropdown-menu">
+                                                            <a href="{% url 'Embedded' %}" class="nav-link"> Embedded IOT </a>
+                                                            <a href="{% url 'PCB' %}" class="nav-link"> PCB Design </a>
+                                                            <a href="{% url '3D' %}" class="nav-link"> 3D Printing </a>
+                                                            <a href="{% url 'STEM' %}" class="nav-link"> STEM & ATL Lab </a>
+                                                            <a href="{% url 'Smart' %}" class="nav-link"> Smart Home </a>
+                                                            <a href="{% url 'Robotic' %}" class="nav-link"> Robotic Automation </a>
+                                                        </ul>
+                                                    </li>
+        
+                                                    <li class="nav-item"><a href="healthcare.html" class="nav-link">AI<i class="fas fa-chevron-down"></i></a>
+                                                        <ul class="dropdown-menu">
+                                                            <a href="{% url 'MachineLearning' %}" class="nav-link">Machine learning</a>
+                                                            <a href="{% url 'Python' %}" class="nav-link"> Python AI</a>
+                                                            <a href="{% url 'Chatbot' %}" class="nav-link">Chatbots</a>
+                                                            <a href="{% url 'Cluster' %}" class="nav-link">Cluster</a>
+                                                            <a href="{% url 'Imagerecognition' %}" class="nav-link">Image Recognition</a>
+                                                            <a href="{% url 'NLP' %}" class="nav-link"> Natural Lanuage Processing</a>
+                                                        </ul>
+                                                    </li>
+        
+                                                    <li class="nav-item"><a href="#" class="nav-link">Website<i class="fas fa-chevron-down"></i></a>
+                                                        <ul class="dropdown-menu">
+                                                            <a href="{% url 'Software-Development' %}" class="nav-link"> Software development </a>
+                                                            <a href="{% url 'Mobile-Application-Development' %}" class="nav-link"> Mobile application development </a>
+                                                            <a href="{% url 'Salesforce-System' %}" class="nav-link"> CRM/Salesforce & automation</a>
+                                                            <a href="{% url 'Intranet-Solution' %}" class="nav-link"> Intranet solutions</a>
+                                                            <a href="{% url 'E-Commerce-Development' %}" class="nav-link"> eCommerce Development </a>
+                                                            <a href="{% url 'SEO' %}" class="nav-link"> Search engine optimisation </a>
+                                                        </ul>
+                                                    </li>
+                                                
+                                            </li>
+                                        </ul>
+                                            
+                                                    
+                                                    
+                                
+                                                
+                                            </li>
+                                        
+                                            <li class="nav-item">
+                                                <a href="{% url 'Product' %}" class="nav-link">
+                                                    Our Products
+                                                </a>
+                                            </li>
+        
+                                            <li class="nav-item">
+                                                <a href="{% url 'Training-Pages' %}" class="nav-link">
+                                                    Training courses
+                                                </a>
+                                            </li>
+                                            
+                                            <li class="nav-item">
+                                                <a href="{% url 'Index' %}" class="nav-link">
+                                                    Blog
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="nav-item">
+                                                        <a href="{% url 'Robotic' %}" class="nav-link">
+                                                            Robotics
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                      <a href="{% url 'AI-Blog' %}" class="nav-link">
+                                                            Artificial Intelligence 
+                                                        </a>
+                                                    </li>
+        
+                                                    <li class="nav-item">
+                                                        <a href="{% url 'Web-Blog' %}" class="nav-link">
+                                                            Web Development
+                                                        </a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="{% url 'About' %}" class="nav-link">
+                                                    About Us
+                                                </a>
+                                            </li>
+        
+        
+                                        </ul>
+                                        <div class="other-option">
+                                            <a class="default-btn" href="{% url 'Contact' %}">
+                                                Contact Us
+                                                <span></span>
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                <!-- End Navbar Area -->
+
+            
+            <!-- Start Page Title Area -->
+                <div class="page-title-area">
+                    <div class="d-table">
+                        <div class="d-table-cell">
+                            <div class="container">
+                                <div class="page-title-content">
+                                    <h2>About Us</h2>
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li>About Us</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- End Page Title Area -->
+
+            <!--About section-->
+                <section class="about-section pt-100 pb-70" >
+                    <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 col-md-6"">
+                                    <div class="slogfy-image" data-aos="fade-left">
+                                        <img src="{% static 'assets/images/web development/ecommerce_ptiwebtech.jpg' %}" alt="image">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="aim-content" data-aos="fade-right">
+                                        <div class="section-title">
+                                            <h3>Our History</h3>
+                                        </div> 
+                                        <p>“Slog slogan is a friendly environment with creative hardworking out of box individuals working together for humanity”
+                                        </p>
+                                    </div>
+                            </div>
+                    </div>
+                </section> 
+            
+                <section class="about-section pt-50 pb-70 " >
+                    <div class="container"> 
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 col-md-6">
+                                    <div class="slogfy-image" data-aos="fade-right">
+                                        <img src="{% static 'assets/images/robotics/os1.jpg' %}" alt="image">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="aim-content" data-aos="fade-left"> 
+                                        <div class="section-title">
+                                            <h3>Growth</h3>
+                                        </div>          
+                                        <p>The company’s rapid growth since incorporation has triggered a chain of products, acquisitions, training, and partnerships. It offers services designed for work and productivity. The company leads the development of robotics, Roboslog has moved increasingly into hardware too it partnered with major electronics manufacturers in the production of its devices, and it released multiple hardware products in October 2019, including the smart speaker, wireless robot, and virtual reality headset.
+                                        </p>    
+                                    </div>
+                                </div>
+                    </div>
+                </section> 
+            <!--End of our history-->
+            
+            <!--Our Aim-->             
+                <section class="productive-section pt-50 pb-100" >
+                    <div class="container">
+                        <div class="section-title">
+                            <h3>Our Aim</h3>
+                        </div>  
+                        <div class="row align-items-center pt-100 pb-70">
+                            <div class="col-lg-6">
+                                <div class="productive-image" data-aos="fade-left">
+                                    <img src="{% static 'assets/images/childrentech.jpg' %}" alt="image">
+                                </div>
+                            </div>
+                                <div class="col-lg-6">
+                                    <div class="productive-content" data-aos="fade-right">
+                                        
+                                        <h3>Our Motive</h3>
+                                        <p>Our Aim to get the technical knowledge available to every child all over the world.</p>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="productive-content" data-aos="fade-right">
+                                    <h3>Our First Initiative</h3>
+                                    <p>In 2019, it announced the SlogFy initiative to provide devices free for differentially able, especially for blinds, around the world, with initial deployment in India.</p>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-6">
+                                <div class="productive-image" data-aos="fade-left">
+                                    <img src="{% static 'assets/images/blind.jpg' %}" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!--End of Our Aim-->
+
+
+
+            <!--ftn counter-->
+                <section class="counter-area">
+                        <div class="container col-lg-12 " data-aos="fade-up">
+                            <div class="row">
+                                <br/>
+                                <div class="col text-center">
+                                    <div class="section-title">
+                                        <h3>THIS IS WHAT WE LIVE FOR</h3>
+                                    </div>
+                                </div>          
+                                
+                            </div>   
+                                <div class="row text-center" data-aos="fade-up">
+                                    <div class="col">
+                                        <div class="counter">
+                                            <i class="fa fa-code fa-2x"></i>
+                                            <h2 class="timer count-title count-number" data-to="100" data-speed="3500"></h2>
+                                            <p class="count-text ">Our Customer</p>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="counter">
+                                            <i class="fa fa-coffee fa-2x"></i>
+                                            <h2 class="timer count-title count-number" data-to="1700" data-speed="3500"></h2>
+                                            <p class="count-text ">Happy Clients</p>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="counter">
+                                            <i class="fa fa-coffee fa-2x"></i>
+                                            <h2 class="timer count-title count-number" data-to="11900" data-speed="3500"></h2>
+                                            <p class="count-text ">Project Complete</p>
+                                        </div>      
+                                    </div>
+                                    <div class="col">
+                                        <div class="counter">
+                                            <i class="fa fa-bug fa-2x"></i>
+                                            <h2 class="timer count-title count-number" data-to="157" data-speed="3500"></h2>
+                                            <p class="count-text ">Coffee With Clients</p>
+                                        </div>
+                                    </div>
+                                </div>      
+                        </div>
+                </section>   
+            <!--End ftn counter-->  
+
+            <!-- Start Subscribe Section -->
+                <section class="subscribe-Section" data-aos="fade-down">
+                    <div >
+                        <div class="subscribe-content-area mb-0">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="subscribe-image">
+                                        <img src="{% static 'assets/img/subscribe.png' %}" alt="image">     
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="subscribe-content">
+                                        <h2>Don’t Miss Our News And Updates</h2>
+                                        <p>Want to know about our upcoming events? Sign up for our bi-weekly newsletter filling the form below. All the updates you need so you don’t miss any of our cultural happenings. A newsletter crafted with love and always with y’all in mind.</p>
+                                    </div>
+
+                                    <form class="newsletter-form">
+                                        <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
+                                        <button type="submit">Subscribe Now</button>
+                                        <div id="validator-newsletter" class="form-result"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!-- End Subscribe Area -->
+
+
+
+
+            <!-- Start Footer Section -->
+                <section class="footer-section ptb-100">
+                    <div class="container">
+                        <div class="row">
+
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-footer-widget">
+                                    <div class="footer-heading">
+                                        <h3>Contact</h3>
+                                    </div>
+
+                                    <div class="footer-info-contact">
+                                        <i class="flaticon-call-answer"></i>
+                                        <h3>Phone</h3>
+                                        <span><a href="tel:+91 9205137675">+91 9205137675</a></span>
+                                    </div>
+
+                                
+
+                                    <div class="footer-info-contact">
+                                        <i class="flaticon-maps-and-flags"></i>
+                                        <h3>Address</h3>
+                                        <span>F-76,<br> 
+                                            Near Saket Metro station,<br>Gate no. 2,<br> New Delhi,110030 </span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-footer-widget">
+                                    <div class="footer-heading">
+                                        <h3>Social Media</h3>
+                                    </div>
+
+                                    <div class="footer-info-contact">
+                                        <i class="flaticon-envelope"></i>
+                                        <h3>Email</h3>
+                                        <span><a href="info@tantrabyte.org">info@tantrabyte.org</a></span>
+                                    </div>
+
+                                    <ul class="footer-social">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <i class="fab fa-pinterest"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-footer-widget">
+                                    <div class="footer-heading">
+                                        <h3>Important Links</h3>
+                                    </div>
+
+                                    <ul class="footer-quick-links">
+                                        <li>
+                                            <a href="#">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Project</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Team</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>    
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="lines">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="partner-shape-img1">
+                        <img src="{% static 'assets/img/shape/partnar-shape-2.png' %}" alt="image">
+                    </div>
+                </section>
+            <!-- End Footer Section -->
+
+
+             <!-- Start Go Top Section -->
+                <div class="go-top">
+                    <i class="fas fa-chevron-up"></i>
+                    <i class="fas fa-chevron-up"></i>
+                </div>
+             <!-- End Go Top Section -->
+
+        <!-- jQuery Min JS -->
+        <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+        <!-- Popper Min JS -->
+        <script src="{% static 'assets/js/popper.min.js' %}"></script>
+        <!-- Bootstrap Min JS -->
+        <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+        <!-- MeanMenu JS  -->
+        <script src="{% static 'assets/js/jquery.meanmenu.js' %}"></script>
+        <!-- Appear Min JS -->
+        <script src="{% static 'assets/js/jquery.appear.min.js' %}"></script>
+        <!-- Odometer Min JS -->
+        <script src="{% static 'assets/js/odometer.min.js' %}"></script>
+        <!-- Owl Carousel Min JS -->
+        <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+        <!-- Magnific Popup Min JS -->
+        <script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
+        <!-- Nice Select Min JS -->
+        <script src="{% static 'assets/js/jquery.nice-select.min.js' %}"></script>
+        <!-- Ajaxchimp Min JS -->
+        <script src="{% static 'assets/js/jquery.ajaxchimp.min.js' %}"></script>
+        <!-- WOW Min JS -->
+        <script src="{% static 'assets/js/wow.min.js' %}"></script>
+        <!-- Form Validator Min JS -->
+        <script src="{% static 'assets/js/form-validator.min.js' %}"></script>
+        <!-- Contact Form Min JS -->
+        <script src="{% static 'assets/js/contact-form-script.js' %}"></script>
+        <!-- Main JS -->
+        <script src="{% static 'assets/js/main.js' %}"></script>
+        <!--Animation-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+    </body>
+
+
+</html>
